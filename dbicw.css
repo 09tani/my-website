@@ -1,0 +1,40 @@
+body
+{
+    font-family: calibri, arial, verdana, serif;
+    font-weight: normal;
+    font-size: 18pt;
+}
+
+h1
+{
+    font-size: 24pt;
+}
+
+h2
+{
+    font-size: 20pt;
+}
+
+/*center image*/
+img 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*change transparentcy*/
+img 
+{
+    opacity: 0.5;
+}
+
+/*background image*/  
+body 
+{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}  

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Coursework2</title>
+        <link rel='stylesheet' type='text/css' href='dbicw.css'>
+        <script src="dbicw.js"></script>
+    </head>
+
+    <body>
+
+        <div style = "position:relative">
+            <h1>Search for a Movie by Title</h1>
+            <form name="st"action= "Search_by_title.php" onsubmit="return validate(this)">
+            Movie title:<br>
+                <input type="text" name="title">
+                <input type="submit" value="Search">
+            </form>
+
+            <h1>Search for a Movie by Actor</h1>
+            <form name="sa" action= "Search_by_actor.php" onsubmit="return check(this)">
+            Actor name:<br>
+                <input type="text" name="actor">
+                <input type="submit" value="Search">
+            </form>
+
+            <h1>Add Movie</h1>
+            <a href=Add_Movie.html><input type=button value='Add Movie'></a>
+
+            <h1>Add Actor</h1>
+            <a href=Add_Actor.html><input type=button value='Add Actor'></a>
+        </div>
+
+        <div style="position: relative; left: 300px; top: -200px;">
+            <h1>Delete Movie</h1>
+            <a href=Delete_Movie.html><input type=button value='Delete Movie'></a>
+
+            <h1>Delete Actor</h1>
+            <a href=Delete_Actor.html><input type=button value='Delete Actor'></a>
+        </div>
+
+        <div style="background-color: beige">
+            <ul style="list-style-type: circle; position: absolute">
+                <li> a </li>
+                <li> a </li>
+                <li> a </li>
+            </ul>
+        </div>
+
+     </body>
+</html>
+
+

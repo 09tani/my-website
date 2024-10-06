@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Add Movie</title>
+        <link rel='stylesheet' type='text/css' href='dbicw.css'>
+        <script type="text/javascript" src="dbicw.js"></script>
+    </head>
+
+    <body>
+        <div style = "position:fixed; left:80px; top:8pt;">
+        <h1>Adding a movie</h1>
+        <form action="Add_Movie.php" onsubmit="return validate(this)">
+        Movie id:<br>
+            <input type="number" name="id">
+            <br>
+            <br>
+        Actor id:<br>
+            <input type="number" name="id">
+            <br>  
+            <br>  
+        Movie Title:<br>
+            <input type="text" name="Title">
+            <br> 
+            <br> 
+        </div>  
+        
+        <div style = "position:fixed; left:300px; top:67pt;">
+        Movie Price:<br>
+            <input type="number" name="Price">
+            <br> 
+            <br>
+        Movie Year:<br>
+            <input type="number" name="Year">
+            <br> 
+            <br>
+        Movie Genre:<br>
+            <input type="text" name="Genre">
+            <input type="submit" value="Add">
+            <br>
+            <br> 
+        </div>
+
+        </form>
+    </body>
+</html>
+
+
