@@ -1,14 +1,14 @@
 <html>
     <head>
         <title>Add Actor</title>
-        <link rel='stylesheet' type='text/css' href='dbicw.css'>
-        <script type="text/javascript" src="dbicw.js"></script>
+        <link rel='stylesheet' type='text/css' href='/public/DBI_CW.css'>
+        <script type="text/javascript" src="/public/DBI_CW.js"></script>
     </head>
 
     <body>
         <div style = "position:fixed; left:80px; top:8pt;">
         <h1>Adding an actor</h1>
-        <form action="Add_Actor.php" onsubmit="return validate(this)">
+        <form action="/actions/actors/Add_Actor.php" onsubmit="return validate(this)">
         Actor id:<br>
             <input type="number" name="id">
             <br>

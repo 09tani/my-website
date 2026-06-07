@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Delete Movie</title>
-    <LINK REL='stylesheet' TYPE='text/css' HREF='dbicw.css'>
+    <LINK REL='stylesheet' TYPE='text/css' HREF='/public/DBI_CW.css'>
   </head>
 <body>
 

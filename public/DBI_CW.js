@@ -8,7 +8,7 @@ function validate()
     }
     else if (empt >= 1)
     {  
-        alert("You have submitted an int");
+        alert("You have submitted an number");
         return false;
     }
     else 
@@ -27,7 +27,7 @@ function check()
     }
     else if (empt >= 1)
     {  
-        alert("You have submitted an int");
+        alert("You have submitted an number");
         return false;
     }
     else 
@@ -46,7 +46,7 @@ function validateDelete()
     }
     else if (empt >= 1)
     {  
-        alert("You have submitted an int");
+        alert("You have submitted an number");
         return false;
     }
     else 
@@ -65,7 +65,7 @@ function validateDelete2()
     }
     else if (empt >= 1)
     {  
-        alert("You have submitted an int");
+        alert("You have submitted an number");
         return false;
     }
     else 

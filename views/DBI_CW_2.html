@@ -1,40 +1,40 @@
 <html>
     <head>
         <title>DBI Coursework Part II</title>
-        <link rel='stylesheet' type='text/css' href='dbicw.css'>
-        <script src="dbicw.js"></script>
+        <link rel='stylesheet' type='text/css' href='/public/DBI_CW.css'>
+        <script src="/public/DBI_CW.js"></script>
     </head>
 
     <body>
 
         <div style = "position:relative">
             <h1>Search for a Movie by Title</h1>
-            <form name="st"action= "Search_by_title.php" onsubmit="return validate(this)">
+            <form name="st"action= "/actions/movies/Search_by_title.php" onsubmit="return validate(this)">
             Movie title:<br>
                 <input type="text" name="title">
                 <input type="submit" value="Search">
             </form>
 
             <h1>Search for a Movie by Actor</h1>
-            <form name="sa" action= "Search_by_actor.php" onsubmit="return check(this)">
+            <form name="sa" action= "/actions/movies/Search_by_actor.php" onsubmit="return check(this)">
             Actor name:<br>
                 <input type="text" name="actor">
                 <input type="submit" value="Search">
             </form>
 
             <h1>Add Movie</h1>
-            <a href=Add_Movie.html><input type=button value='Add Movie'></a>
+            <a href="/views/movie/Add_Movie.html"><input type=button value='Add Movie'></a>
 
             <h1>Add Actor</h1>
-            <a href=Add_Actor.html><input type=button value='Add Actor'></a>
+            <a href="/views/actor/Add_Actor.html"><input type=button value='Add Actor'></a>
         </div>
 
         <div style="position: relative; left: 300px; top: -200px;">
             <h1>Delete Movie</h1>
-            <a href=Delete_Movie.html><input type=button value='Delete Movie'></a>
+            <a href="/views/movie/Delete_Movie.html"><input type=button value='Delete Movie'></a>
 
             <h1>Delete Actor</h1>
-            <a href=Delete_Actor.html><input type=button value='Delete Actor'></a>
+            <a href="/views/actor/Delete_Actor.html"><input type=button value='Delete Actor'></a>
         </div>
 
      </body>
