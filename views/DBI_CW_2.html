@@ -1,22 +1,22 @@
 <html>
     <head>
         <title>DBI Coursework Part II</title>
-        <link rel='stylesheet' type='text/css' href='/public/DBI_CW.css'>
-        <script src="/public/DBI_CW.js"></script>
+        <link rel='stylesheet' type='text/css' href='./public/DBI_CW.css'>
+        <script src="./public/DBI_CW.js"></script>
     </head>
 
     <body>
 
         <div style = "position:relative">
             <h1>Search for a Movie by Title</h1>
-            <form name="st"action= "/actions/movies/Search_by_title.php" onsubmit="return validate(this)">
+            <form name="st" action= "/actions/search/Search_by_title.php" onsubmit="return validate(this)">
             Movie title:<br>
                 <input type="text" name="title">
                 <input type="submit" value="Search">
             </form>
 
             <h1>Search for a Movie by Actor</h1>
-            <form name="sa" action= "/actions/movies/Search_by_actor.php" onsubmit="return check(this)">
+            <form name="sa" action= "/actions/search/Search_by_actor.php" onsubmit="return check(this)">
             Actor name:<br>
                 <input type="text" name="actor">
                 <input type="submit" value="Search">
